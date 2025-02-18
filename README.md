@@ -5,6 +5,8 @@ This project showcases the development of a modern data warehouse using SQL Serv
 
 ## 🏗️ Data Architecture
 The project follows a **Medallion Architecture** to structure the data warehouse with three key layers:
+![Data Architecture_Black](https://github.com/user-attachments/assets/e2409382-b7c3-46e7-8106-af43d4895700)
+
 
 ### **Bronze Layer**: 
 Stores raw data directly from the source systems. Data is loaded into SQL Server from CSV files.
