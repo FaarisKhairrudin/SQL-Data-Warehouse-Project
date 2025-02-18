@@ -1,4 +1,4 @@
-# Data Warehouse and Analytics Project
+# Data Warehouse and Analytics Project (In Progress)
 Welcome to the Data Warehouse and Analytics Project repository! 🚀
 
 This project is currently in progress and focuses on building a **modern data warehouse** using SQL Server. It includes the implementation of **ETL processes**, **data modeling**, and **analytics**, showcasing the fundamentals of **data engineering**.
