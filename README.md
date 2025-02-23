@@ -1,5 +1,5 @@
 # Data Warehouse and Analytics Project (Gold Layer Development)  
-Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
+Welcome to my **Data Warehouse and Analytics Project** repository! 🚀  
 
 This project aims to build a **modern data warehouse** using SQL Server, focusing on **ETL (Extract, Transform, Load) processes**, **data modeling**, and **analytics** to support data-driven decision-making.  
 
