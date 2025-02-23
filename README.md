@@ -1,62 +1,61 @@
-# Data Warehouse and Analytics Project (In Progress)
-Welcome to the Data Warehouse and Analytics Project repository! 🚀
+# Data Warehouse and Analytics Project (Gold Layer Development)  
+Welcome to the **Data Warehouse and Analytics Project** repository! 🚀  
 
-This project is currently in progress and focuses on building a **modern data warehouse** using SQL Server. It includes the implementation of **ETL processes**, **data modeling**, and **analytics**, showcasing the fundamentals of **data engineering**.
+This project aims to build a **modern data warehouse** using SQL Server, focusing on **ETL (Extract, Transform, Load) processes**, **data modeling**, and **analytics** to support data-driven decision-making.  
 
-## 🏗️ Data Architecture
-This project follows a **Medallion Architecture** to structure the data warehouse with three main layers. The current progress is focused on the **Bronze Layer**, with work in progress for the **Silver** and **Gold** layers.
+## 🏗️ Data Architecture  
+The repository follows the **Medallion Architecture**, dividing the data warehouse into three main layers. The current phase of development is focused on the **Gold Layer**, which will provide business-ready data for advanced analysis.  
 
-![Data Architecture_Black](https://github.com/user-attachments/assets/e2409382-b7c3-46e7-8106-af43d4895700)
+![Data Architecture](https://github.com/user-attachments/assets/e2409382-b7c3-46e7-8106-af43d4895700)  
 
-### **Bronze Layer** (In Progress)
-This layer stores raw data as-is from the source systems. Data is ingested from CSV files into a SQL Server database without modification. The focus at this stage is on extracting the data and populating the **Bronze Layer** for future processing.
+### **Bronze Layer** (Completed)  
+This layer stores raw data directly from source systems without modifications. Data is ingested from CSV files into SQL Server, forming the foundation for further processing.  
 
-### **Silver Layer** (Upcoming)
-The Silver Layer will involve cleansing, standardizing, and transforming data to prepare it for deeper analysis.
+### **Silver Layer** (Completed)  
+At this stage, data is cleansed, standardized, and transformed to ensure consistency and quality before analysis.  
 
-### **Gold Layer** (Upcoming)
-The Gold Layer will contain business-ready data, modeled into a **star schema**, optimized for reporting and analytics.
+### **Gold Layer** (In Progress)  
+The Gold Layer contains structured, business-ready data modeled using a **star schema** to optimize reporting and analytics. The current focus is on building fact and dimension tables to enhance query efficiency.  
 
-## 📖 Project Overview
-This project involves:
+## 📖 Project Overview  
+This project covers several key aspects:  
 
-- **Data Architecture**: Building a modern data warehouse using **Medallion Architecture** (currently in the Bronze Layer).
-- **ETL Pipelines**: Extracting data from source systems and loading it into the warehouse.
-- **Data Modeling**: Preparing for the creation of fact and dimension tables for analytical queries (to be implemented in the Silver and Gold layers).
-- **Analytics & Reporting**: Planned reports and dashboards to generate actionable insights (post-Bronze Layer).
+- **Data Architecture**: Implementing the **Medallion Architecture**, currently focusing on the Gold Layer.  
+- **ETL Pipelines**: Extracting, transforming, and loading data into the warehouse.  
+- **Data Modeling**: Designing fact and dimension tables to support business analytics.  
+- **Analytics & Reporting**: Generating SQL-based reports to uncover trends and patterns in the data.  
 
-## 🎯 Key Skills Developed:
-- **SQL Development**
-- **Data Architecture**
-- **Data Engineering**
-- **ETL Pipeline Development**
-- **Data Analytics** (forthcoming)
+## 🎯 Key Skills Developed  
+- **SQL Development**  
+- **Data Architecture**  
+- **Data Engineering**  
+- **ETL Pipeline Development**  
+- **Data Analytics**  
 
-## 🛠️ Tools & Links:
-- **Datasets**: Access the project datasets (CSV files).
-- **SQL Server Express**: Lightweight SQL database server.
-- **SQL Server Management Studio (SSMS)**: GUI for managing SQL Server databases.
-- **GitHub**: Repository for version control and collaboration.
-- **Draw.io**: Tool for designing data architecture and data flow diagrams.
-- **Notion**: Project management and organization tool.
-- **Notion Project Steps**: Access detailed project phases and tasks.
+## 🛠️ Tools & Resources  
+- **Datasets**: CSV files used in the project.  
+- **SQL Server Express**: A lightweight database server.  
+- **SQL Server Management Studio (SSMS)**: A GUI tool for database management.  
+- **GitHub**: Used for version control and collaboration.  
+- **Draw.io**: For designing data models and workflows.  
+- **Notion**: Project management and documentation tool.  
 
-## 🚀 Project Requirements
+## 🚀 Project Requirements  
 
-### Building the Data Warehouse (Data Engineering)
-**Objective**: Develop a modern data warehouse in SQL Server to consolidate sales data, enabling advanced analytical reporting.
+### Building the Data Warehouse (Data Engineering)  
+**Objective**: Develop a modern data warehouse that integrates sales data to support advanced analytics.  
 
-**Specifications**:
-- **Data Sources**: CSV files from ERP and CRM systems.
-- **Data Quality**: Ensure clean, reliable data for accurate analysis.
-- **Integration**: Combine both data sources into a unified data model optimized for analytical queries.
-- **Scope**: Focus on the latest dataset (no historical data required).
-- **Documentation**: Provide clear documentation of the data model for business and analytics teams.
+**Specifications**:  
+- **Data Sources**: Data extracted from ERP and CRM systems in CSV format.  
+- **Data Quality**: Ensure clean, standardized, and reliable data.  
+- **Integration**: Combine multiple sources into a well-structured, analytics-friendly model.  
+- **Scope**: Focus on the latest dataset only; historical data retention is not required.  
+- **Documentation**: Provide clear documentation of the data model for business and analytics teams.  
 
-### BI Analytics & Reporting (Data Analysis)
-**Objective**: Provide detailed insights into:
-- Customer behavior
-- Product performance
-- Sales trends
+### BI & Analytics (Data Analysis)  
+**Objective**: Deliver data-driven insights for business decision-making, including:  
+- **Customer Behavior Analysis**  
+- **Product Performance Evaluation**  
+- **Sales Trend Identification**  
 
-These insights help stakeholders make data-driven decisions.
+The generated reports will help stakeholders make informed decisions based on real data.  
