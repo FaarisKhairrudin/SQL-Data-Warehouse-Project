@@ -60,6 +60,6 @@ This project covers several key aspects:
 
 The generated reports will help stakeholders make informed decisions based on real data.  
 
-## 📌 Reference  
-This project is inspired by the concepts explained in [SQL Data Warehouse from Scratch](https://youtu.be/9GVqKuTVANE?si=hYkz8grN0LpFz18F), with additional modifications and improvements.  
+## 📌 Learning Resource  
+This project follows the ["Building a Modern Data Warehouse with SQL Server"](https://youtu.be/9GVqKuTVANE?si=hYkz8grN0LpFz18F) tutorial, with modifications and improvements.  
 
